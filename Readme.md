@@ -33,6 +33,9 @@ It was created inside the streamelements overlay using a custom widget
 
 That's all, I hope you enjoy and leave a feedback :)
 
+## Important
+Make sure to run `!emotes update` always you put a new emote to show correctly in the overlay
+
 ## To Do
 
 - [ ] Customizable font size
