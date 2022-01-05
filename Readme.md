@@ -18,6 +18,7 @@ It was created inside the streamelements overlay using a custom widget
     + Customizable time to the message disappear
     + Customizable ignored users from apprearing in overlay
     + Customizable font
++ Animated gifs
 + Option to ignore the !
 + Messages auto deleted in the chat will also be deleted from the widget
 
