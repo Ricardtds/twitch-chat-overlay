@@ -1,9 +1,15 @@
 # A chat widget for your live.
-![Chat example](https://i.ibb.co/k9fkJxD/Screenshot-2022-01-04-at-18-46-14-Stream-Elements-The-ultimate-tools-for-live-streaming.png "Chat example of the overlay")
+ 
 
 This is a custom template that I made 4 fun and decided to make it public for everyone that wishes to use!
-
 It was created inside the streamelements overlay using a custom widget
+
+> Open the picture for a better resolution!
+<img width="30%" alt="Text chat example" title="Text chat example" src="https://i.ibb.co/3hVmtrV/Screenshot-2022-01-04-at-20-54-55-Stream-Elements-The-ultimate-tools-for-live-streaming.png"/>
+
+
+
+
 
 + Features:
     + Customizable background color
@@ -41,4 +47,3 @@ Make sure to run `!emotes update` always you put a new emote to show correctly i
 - [ ] Customizable font size
 - [ ] Customizable font color
 - [ ] Customizable chat size
-
