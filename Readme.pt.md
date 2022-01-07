@@ -22,6 +22,7 @@ Ele foi criado dentro da streamelements overlay usando um widget personalizado
     + Tempo para a mensagem aparecer
     + Tempo para a mensagem desaparecer
     + A fonte
+    + Altura máxima do emote
 + Escolha:
     + Usuários que serão ignorados
     + Ignorar mensagens iniciadas com !  
@@ -50,7 +51,3 @@ Isso é tudo, espero que gostem e deixem um feedback :)
 Certifique-se de executar `!emotes update` no chat sempre que você colocar um novo emote para mostrar corretamente na sobreposição.
 
 **OBS**: É necessário que o comando esteja ativado em sua dashboard.
-
-## Afazeres
-
-- [ ] Tamanho dos emotes/gifs na tela ? 

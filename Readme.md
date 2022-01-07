@@ -22,6 +22,7 @@ It was created inside the streamelements overlay using a custom widget
      + Time for message to appear
      + Time for message to disappear
      + The font family
+     + Max emote height
 + Choose:
      + Users who will be ignored
      + Ignore messages starting with !
@@ -50,7 +51,3 @@ That's all, I hope you enjoy and leave a feedback :)
 Make sure to run `!emotes update` always you put a new emote to show correctly in the overlay
 
 **PS**: It is necessary that the command is activated in your panel.
-
-## ToDo
-
-- [ ] Size of emotes/gifs on screen ? 

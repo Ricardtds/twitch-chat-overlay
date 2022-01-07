@@ -1,13 +1,14 @@
 {
     "backgroundColor": "rgba(255, 255, 255, 0.0)",
-    "senderMessageFontSize": 24,
+    "senderMessageFontSize": 20,
     "messageBackgroundColor": "rgba(24, 24, 27, 0.5)",
-    "messageFontSize": 20,
+    "messageFontSize": 16,
     "messageFontColor": "rgb(255, 255, 255)",
     "displayTimeout": 0.2,
     "hideTimeout": 60,
     "ignoredUsers": "streamelements nightbot streamlabs moobot streamholics",
-    "textFont": "Overpass",
-    "ignoreExclamation": "no",
-    "senderMessageBadgeSize": 24
+    "textFont": "Overpass Mono",
+    "ignoreExclamation": "yes",
+    "senderMessageBadgeSize": 20,
+    "emoteSize": 16
 }

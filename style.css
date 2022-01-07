@@ -40,11 +40,14 @@ background-color: {{backgroundColor}};
 .main-msg--header--badge{
   width: {{senderMessageBadgeSize}}px;
   margin-left: 4px;
-  border-radius:50%;
+  border-radius: 50%;
 }
 
 .main-msg--text{
   margin-top: 5px;
   font-size: {{messageFontSize}}px;
   color: {{messageFontColor}};
+}
+.main-msg--text .emote {
+  max-height: {{emoteSize}}px;
 }

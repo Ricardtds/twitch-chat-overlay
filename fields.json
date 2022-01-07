@@ -33,6 +33,14 @@
         "value": 20,
         "step": 1
     },
+    "emoteSize": {
+        "type": "slider",
+        "min": 1,
+      	"max":50,
+        "label": "Max emote height:",
+        "value": 32,
+        "step": 1
+    },
     "messageFontColor": {
         "type": "colorpicker",
         "label": "Message Font color",
