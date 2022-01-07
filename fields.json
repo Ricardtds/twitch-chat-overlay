@@ -10,15 +10,25 @@
         "value": "rgba(36, 6, 73, 0.15)"
     },
     "senderMessageFontSize": {
-        "type": "number",
-        "min": 1,
+        "type": "slider",
+        "min": 0,
+      	"max":100,
         "label": "Sender message font size:",
         "value": 28,
         "step": 1
     },
-    "messageFontSize": {
-        "type": "number",
+    "senderMessageBadgeSize": {
+        "type": "slider",
         "min": 1,
+      	"max":100,
+        "label": "Badge icon size:",
+        "value": 28,
+        "step": 1
+    },
+    "messageFontSize": {
+        "type": "slider",
+        "min": 1,
+      	"max":100,
         "label": "Message font size:",
         "value": 20,
         "step": 1

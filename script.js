@@ -12,6 +12,9 @@ window.addEventListener('onEventReceived', function (obj) {
     case 'delete-message':
       deleteMessage(obj.detail.event.msgId);
       break;
+    case 'delete-messages':
+      deleteMessages(obj.detail.event.userId);
+      break;
   }
 });
 
@@ -30,6 +33,7 @@ function handleMessage(event) {
     let divmsg = document.createElement('div');
     divmsg.classList.add('main-msg');
     divmsg.setAttribute('data-msgId', event.data.msgId);
+    divmsg.setAttribute('data-senderId', event.data.userId);
     divmsg.style.opacity = '0';
 
     let divmsgheader = document.createElement('div');
@@ -81,6 +85,13 @@ function checkText(text) {
 function deleteMessage(msgId) {
   let no = document.querySelector(`div[data-msgid="${msgId}"]`);
   no.parentNode.removeChild(no);
+}
+
+function deleteMessages(userId) {
+  let nos = document.querySelectorAll(`div[data-senderid="${userId}"]`);
+  nos.forEach(no => {
+    no.parentNode.removeChild(no);
+  })
 }
 
 function checkExclamation(text) {

@@ -12,16 +12,21 @@ Ele foi criado dentro da streamelements overlay usando um widget personalizado
 
 
 
-+ Alguns recursos:
-    + Cor de fundo personalizável
-    + Cor de fundo de mensagem personalizável
-    + Tempo personalizável para a mensagem aparecer
-    + Tempo personalizável para a mensagem desaparecer
-    + Usuários ignorados personalizável para que não apareçam na tela
-    + Fonte personalizável
++ Altere você mesmo:
+    + Cor de fundo do overlay
+    + Cor de fundo da mensagem
+    + Cor da mensagem
+    + Tamanho da fonte do nome
+    + Tamanho da fonte da mensagem  
+    + Tamanho das badges da pessoa   
+    + Tempo para a mensagem aparecer
+    + Tempo para a mensagem desaparecer
+    + A fonte
++ Escolha:
+    + Usuários que serão ignorados
+    + Ignorar mensagens iniciadas com !  
 + Gifs animados
-+ Opção para ignorar mensagens iniciadas com !
-+ Mensagens excluídas no chat também serão excluídas do widget
++ Mensagens excluídas no chat também são excluídas do overlay
 
 ## Como adicionar o overlay?
 
@@ -45,9 +50,3 @@ Isso é tudo, espero que gostem e deixem um feedback :)
 Certifique-se de executar `!emotes update` no chat sempre que você colocar um novo emote para mostrar corretamente na sobreposição.
 
 **OBS**: É necessário que o comando esteja ativado em sua dashboard.
-
-## Lista de afazeres
-
-- [X] Tamanho personalizável do bate-papo do remetente
-- [X] tamanho da fonte do texto personalizável
-- [X] Cor da fonte do texto personalizável

@@ -12,16 +12,21 @@ It was created inside the streamelements overlay using a custom widget
 
 
 
-+ Features:
-    + Customizable background color
-    + Customizable Message background color
-    + Customizable time to the message appear
-    + Customizable time to the message disappear
-    + Customizable ignored users from apprearing in overlay
-    + Customizable font
++ Change yourself:
+     + Overlay background color
+     + Message background color
+     + Message color
+     + Name font size
+     + Message font size
+     + Size of the person's badges
+     + Time for message to appear
+     + Time for message to disappear
+     + The font family
++ Choose:
+     + Users who will be ignored
+     + Ignore messages starting with !
 + Animated gifs
-+ Option to ignore the !
-+ Messages deleted in the chat will also be deleted from the widget
++ Messages deleted in the chat are also excluded from the overlay
 
 ## How to add in my overlay
 
@@ -45,9 +50,3 @@ That's all, I hope you enjoy and leave a feedback :)
 Make sure to run `!emotes update` always you put a new emote to show correctly in the overlay
 
 **PS**: It is necessary that the command is activated in your panel.
-
-## To Do
-
-- [X] Customizable sender chat size
-- [X] Customizable text font size
-- [X] Customizable text font color
