@@ -50,3 +50,7 @@ Isso é tudo, espero que gostem e deixem um feedback :)
 Certifique-se de executar `!emotes update` no chat sempre que você colocar um novo emote para mostrar corretamente na sobreposição.
 
 **OBS**: É necessário que o comando esteja ativado em sua dashboard.
+
+## Afazeres
+
+- [ ] Tamanho dos emotes/gifs na tela ? 

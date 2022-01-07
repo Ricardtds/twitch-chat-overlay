@@ -50,3 +50,7 @@ That's all, I hope you enjoy and leave a feedback :)
 Make sure to run `!emotes update` always you put a new emote to show correctly in the overlay
 
 **PS**: It is necessary that the command is activated in your panel.
+
+## ToDo
+
+- [ ] Size of emotes/gifs on screen ? 
