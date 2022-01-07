@@ -1,6 +1,9 @@
 {
     "backgroundColor": "rgba(255, 255, 255, 0.0)",
+    "senderMessageFontSize": "rgba(24, 24, 27, 0.5)",
     "messageBackgroundColor": "rgba(24, 24, 27, 0.5)",
+    "messageFontSize": 20,
+    "messageFontColor": "rgb(255, 255, 255)",
     "displayTimeout": 0.2,
     "hideTimeout": 60,
     "ignoredUsers": "streamelements nightbot streamlabs moobot streamholics",

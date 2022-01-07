@@ -1,20 +1,22 @@
 *{
     font-family: {{textFont}}, 'Montserrat', sans-serif;
   	font-variant-ligatures: normal;
-    color: {{fontColor}};
   	margin: 0;
     padding: 0;
     transition: all 0.5s;
   	scroll-behavior: smooth;
   	box-sizing: border-box;
 }
+
 body {
   background-color: {{backgroundColor}};
 }
+
 .main-container, .main-modelo{
     width: 100%; 
   	max-height: 100%;
 }
+
 .main-msg{
     background-color: {{messageBackgroundColor}};
     padding: 2px;  
@@ -29,17 +31,20 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid #FFF;
 }
+
 .main-msg--header--name{
-	font-size: 28px;
+	  font-size: {{senderMessageFontSize}}px;
   	text-shadow: 0.5px 0 0 #000, -0.5px 0 0 #000, 0 0.5px 0 #000, 0 -0.5px 0 #000;
 }
+
 .main-msg--header--badge{
     width: 28px;
   	margin-left: 4px;
     border-radius:50%;
 }
+
 .main-msg--text{
     margin-top: 5px;
-    font-size: 20px;
-    color: #FFF;
+    font-size: {{messageBackgroundColor}}px;
+    color: {{messageFontColor}};
 }

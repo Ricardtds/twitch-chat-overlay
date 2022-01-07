@@ -9,6 +9,25 @@
         "label": "Message background color",
         "value": "rgba(36, 6, 73, 0.15)"
     },
+    "senderMessageFontSize": {
+        "type": "number",
+        "min": 1,
+        "label": "Sender message font size:",
+        "value": 28,
+        "step": 1
+    },
+    "messageFontSize": {
+        "type": "number",
+        "min": 1,
+        "label": "Message font size:",
+        "value": 20,
+        "step": 1
+    },
+    "messageFontColor": {
+        "type": "colorpicker",
+        "label": "Message Font color",
+        "value": "rgb(255, 255, 255)"
+    },
     "displayTimeout": {
         "type": "number",
         "min": 0,
