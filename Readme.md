@@ -22,7 +22,7 @@ It was created inside the streamelements overlay using a custom widget
      + Time for message to appear
      + Time for message to disappear
      + The font family
-     + Max emote height
+     + Min and Max emote height
 + Choose:
      + Users who will be ignored
      + Ignore messages starting with !

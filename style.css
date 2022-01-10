@@ -49,5 +49,6 @@ background-color: {{backgroundColor}};
   color: {{messageFontColor}};
 }
 .main-msg--text .emote {
-  max-height: {{emoteSize}}px;
+  min-height: {{minEmoteSize}}px;
+  max-height: {{maxEmoteSize}}px;
 }

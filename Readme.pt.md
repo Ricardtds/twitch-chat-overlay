@@ -1,6 +1,6 @@
 # A chat widget for your live.
  
-Leia também em outras linguas: [Inglês](./Readme.md)
+Leia também em outras linguas: [English](./Readme.md)
 
 Esse é um template customizado que fiz pra me divertir e decidi torná-lo público para todos que quiserem usar!
 Ele foi criado dentro da streamelements overlay usando um widget personalizado
@@ -22,7 +22,7 @@ Ele foi criado dentro da streamelements overlay usando um widget personalizado
     + Tempo para a mensagem aparecer
     + Tempo para a mensagem desaparecer
     + A fonte
-    + Altura máxima do emote
+    + Altura Máxima e Mínima do emote
 + Escolha:
     + Usuários que serão ignorados
     + Ignorar mensagens iniciadas com !  

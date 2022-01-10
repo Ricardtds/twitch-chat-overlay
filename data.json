@@ -10,5 +10,6 @@
     "textFont": "Overpass Mono",
     "ignoreExclamation": "yes",
     "senderMessageBadgeSize": 20,
-    "emoteSize": 16
+    "maxEmoteSize": 32,
+    "minEmoteSize": 24
 }
