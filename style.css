@@ -1,3 +1,4 @@
+
 *{
   font-family: {{textFont}}, 'Montserrat', sans-serif;
   font-variant-ligatures: normal;
@@ -7,9 +8,8 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
-
 body {
-background-color: {{backgroundColor}};
+	background-color: {{backgroundColor}};
 }
 
 .main-container, .main-modelo{
@@ -18,23 +18,27 @@ background-color: {{backgroundColor}};
 }
 
 .main-msg{
-  background-color: {{messageBackgroundColor}};
   padding: 2px;  
   border-radius: 10px;
   max-width: 100%;
-  margin-bottom: 5px;
-  padding: 5px;
+  padding: 5px 0px 0px 0px;
 }
 
 .main-msg--header{
   display: flex;
+  padding: 5px;
+  background-color: {{headerBackgroundColor}};
+  border-radius: 10px 10px 0px 0px;
   justify-content: space-between;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid {{headerBottomBorder}};
 }
 
 .main-msg--header--name{
   font-size: {{senderMessageFontSize}}px;
-  text-shadow: 0.5px 0 0 #000, -0.5px 0 0 #000, 0 0.5px 0 #000, 0 -0.5px 0 #000;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000;
+}
+.main-msg--header--name:first-letter, .main-msg--text:first-letter{
+    text-transform: uppercase;
 }
 
 .main-msg--header--badge{
@@ -44,9 +48,12 @@ background-color: {{backgroundColor}};
 }
 
 .main-msg--text{
-  margin-top: 5px;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000;
   font-size: {{messageFontSize}}px;
+  padding: 5px;
   color: {{messageFontColor}};
+  background-color: {{messageBackgroundColor}};
+  border-radius: 0px 0px 10px 10px;
 }
 .main-msg--text .emote {
   min-height: {{minEmoteSize}}px;

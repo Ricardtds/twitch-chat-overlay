@@ -6,26 +6,16 @@ This is a custom template that I made 4 fun and decided to make it public for ev
 It was created inside the streamelements overlay using a custom widget
 
 > Open the picture for a better resolution!
-<img width="30%" alt="Text chat example" title="Text chat example" src="https://i.ibb.co/3hVmtrV/Screenshot-2022-01-04-at-20-54-55-Stream-Elements-The-ultimate-tools-for-live-streaming.png"/>
 
+<img width="50%" alt="Text chat example" title="Text chat example" src="./images/chatexample.png"/>
+<br/><br/>
 
-
-
-
-+ Change yourself:
-     + Overlay background color
-     + Message background color
-     + Message color
-     + Name font size
-     + Message font size
-     + Size of the person's badges
-     + Time for message to appear
-     + Time for message to disappear
-     + The font family
-     + Min and Max emote height
+> Also included:
 + Choose:
      + Users who will be ignored
      + Ignore messages starting with !
+     + Message's delay to appear
+     + Message's delay to disappear
 + Animated gifs
 + Messages deleted in the chat are also excluded from the overlay
 
@@ -51,3 +41,9 @@ That's all, I hope you enjoy and leave a feedback :)
 Make sure to run `!emotes update` always you put a new emote to show correctly in the overlay
 
 **PS**: It is necessary that the command is activated in your panel.
+
+## Appreciations
+
+<hr>
+
+To [Anymoraesz](https://www.twitch.tv/anymoraesz) for helping this project with her knowledge and design tips!

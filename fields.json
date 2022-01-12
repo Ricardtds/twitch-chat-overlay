@@ -4,9 +4,19 @@
         "label": "Background color",
         "value": "rgba(0, 0, 0, 0.0)"
     },
+  	"headerBackgroundColor": {
+        "type": "colorpicker",
+        "label": "Header background color",
+        "value": "rgba(0, 0, 0, 0.0)"
+    },
     "messageBackgroundColor": {
         "type": "colorpicker",
         "label": "Message background color",
+        "value": "rgba(36, 6, 73, 0.15)"
+    },
+  	"headerBottomBorder": {
+        "type": "colorpicker",
+        "label": "Header line color",
         "value": "rgba(36, 6, 73, 0.15)"
     },
     "senderMessageFontSize": {

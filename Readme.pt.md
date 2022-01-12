@@ -6,26 +6,16 @@ Esse é um template customizado que fiz pra me divertir e decidi torná-lo públ
 Ele foi criado dentro da streamelements overlay usando um widget personalizado
 
 > Abra a imagem para uma melhor resoulução!
-<img width="30%" alt="Text chat example" title="Text chat example" src="https://i.ibb.co/3hVmtrV/Screenshot-2022-01-04-at-20-54-55-Stream-Elements-The-ultimate-tools-for-live-streaming.png"/>
 
+<img width="50%" alt="Exemplo de chat" title="Exemplo de chat" src="./images/chatexample.png"/>
+<br/><br/>
 
-
-
-
-+ Altere você mesmo:
-    + Cor de fundo do overlay
-    + Cor de fundo da mensagem
-    + Cor da mensagem
-    + Tamanho da fonte do nome
-    + Tamanho da fonte da mensagem  
-    + Tamanho das badges da pessoa   
-    + Tempo para a mensagem aparecer
-    + Tempo para a mensagem desaparecer
-    + A fonte
-    + Altura Máxima e Mínima do emote
+> Também incluso:
 + Escolha:
     + Usuários que serão ignorados
-    + Ignorar mensagens iniciadas com !  
+    + Ignorar mensagens iniciadas com !
+    + Tempo para mensagem aparecer
+    + Tempo para mensagem desaparecer
 + Gifs animados
 + Mensagens excluídas no chat também são excluídas do overlay
 
@@ -48,6 +38,13 @@ Ele foi criado dentro da streamelements overlay usando um widget personalizado
 Isso é tudo, espero que gostem e deixem um feedback :)
 
 ## Importante
+
 Certifique-se de executar `!emotes update` no chat sempre que você colocar um novo emote para mostrar corretamente na sobreposição.
 
 **OBS**: É necessário que o comando esteja ativado em sua dashboard.
+
+## Agradecimentos
+
+<hr>
+
+A [Anymoraesz](https://www.twitch.tv/anymoraesz) por ajudar neste projeto com seu conhecimento e dicas sobre design!
